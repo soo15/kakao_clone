@@ -1,0 +1,99 @@
+@import "../../Styles/common.scss";
+
+.doc-header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 1000;
+    margin: 0 auto;
+    background-color: #fff;
+    max-width: 640px;
+    min-width: 320px;
+}
+
+.doc-title {
+    overflow: hidden;
+    height: 46px;
+    padding: 0 80px;
+    font-size: 16px;
+    line-height: 46px;
+    text-align: center;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+
+    a {
+        color: #000;
+    }
+    
+    &.link_logo_theme {
+        display: block;
+        width: 167px;
+        height: 46px;
+        margin: 0 auto;
+    }
+}
+
+
+
+.link_logo_theme {
+    display: block;
+    width: 167px;
+    height: 46px;
+    margin: 0 auto;
+}
+
+.img_g {
+    display: block;
+    width: 100%;
+}
+
+
+
+.ico_friends {
+    width: 24px;
+    height: 24px;
+}
+
+.ico_friends {
+    display: block;
+    overflow: hidden;
+    font-size: 1px;
+    line-height: 0;
+    background: url('../../assets/images/Icon/ico_friends.png') 0 0 no-repeat;
+    background-size: 700px 1000px;
+    color: transparent;
+
+    &.ico_cart {
+        background-position: -70px -810px;
+    }
+    
+    &.ico_search {
+        background-position: -40px -20px;
+    }
+    
+    &.ico_gnb_menu {
+        background-position: -520px -60px;
+    }
+}
+
+
+.group_util {
+    overflow: hidden;
+    position: absolute;
+    top: 6px;
+}
+
+.util_left {
+    left: 12px;
+}
+
+.util_right {
+    right: 12px;
+}
+
+.btn_util {
+    float: left;
+    position: relative;
+    padding: 5px;
+}
