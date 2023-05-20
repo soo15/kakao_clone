@@ -9,7 +9,7 @@ function Header() {
       <h1 className="screen_out">KAKAO FRIENDS</h1>
       <h2 className="doc-title">
         <a href="/" className="link_logo_theme">
-          <img alt="KAKAO FRIENDS" className="img_g" src={logo} srcset="" />
+          <img alt="KAKAO FRIENDS" className="img_g" src={logo} />
         </a>
       </h2>
       <div className="group_util util_left">

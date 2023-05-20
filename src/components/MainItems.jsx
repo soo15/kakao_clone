@@ -15,11 +15,11 @@ function MainItems() {
         </a>
       </div>
       <hr />
-      <divs>
+      <div>
         <a href="/category/new-product">
           <span>신상품</span> 신상품 <span>NEW</span>
         </a>
-      </divs>
+      </div>
       <hr />
       <div>
         <button>
@@ -65,7 +65,7 @@ function MainItems() {
               무직타이거X카카오프렌즈<em>콜라보 굿즈 세일</em>
             </span>
             <span>
-              <img />
+              <img href="/"/>
             </span>
           </a>
         </div>
@@ -140,7 +140,7 @@ function MainItems() {
         <fs-video>
           <div>
             <video
-              poster="https://img1.kakaocdn.net/thumb/R320x0.q82/?fname=https%3A%2F%2Ft1.kakaocdn.net%2Ffriends%2Fnew_store%2Fprod%2Fhome_tab%2Frecommend_movie%2Frecommend_movie_20230512165134_5083436ec21047cc86c3a7005738198c.mp4.jpg"
+              poster="https://1.kakaocdn.net/thumb/R320x0.q82/?fname=https%3A%2F%2Ft1.kakaocdn.net%2Ffriends%2Fnew_store%2Fprod%2Fhome_tab%2Frecommend_movie%2Frecommend_movie_20230512165134_5083436ec21047cc86c3a7005738198c.mp4.jpg"
               src="https://t1.kakaocdn.net/friends/new_store/prod/home_tab/recommend_movie/recommend_movie_20230512165134_5083436ec21047cc86c3a7005738198c.mp4.recommend_movie.1080p.mp4"
             ></video>
           </div>
