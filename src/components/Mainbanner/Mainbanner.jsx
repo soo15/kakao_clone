@@ -1,7 +1,7 @@
 import React from 'react'
-import './Main.scss'
+import './Mainbanner.scss'
 
-function Main() {
+function Mainbanner() {
   return (
     <div>
         <h2 className='screen_out'>스토어 메인 배너</h2>
@@ -13,7 +13,7 @@ function Main() {
             <div className="slide_mainbanner">
               <div className="flicking-camera">
                 <div>
-                  slide
+                  slide 스토어 메인 배너
                 </div>
               </div>
             </div>
@@ -23,4 +23,4 @@ function Main() {
   )
 }
 
-export default Main
+export default Mainbanner
